@@ -16,7 +16,7 @@
       "PrivacyNotes"
     ]
   ],
-  "notes": "PrivacyNotes has a built-in updater that installs into your user profile, separate from Scoop. To keep one copy managed by Scoop, decline the in-app update and run 'scoop update privacynotes' instead.",
+  "notes": "Scoop manages this install. Run 'scoop update privacynotes' to move to a new version.",
   "checkver": {
     "url": "https://releases.privacynotes.app/u/windows-x86_64/latest.json",
     "jsonpath": "$.version"

@@ -26,6 +26,5 @@ file associations are registered. Use the installer from
 The manifest carries `checkver` and `autoupdate`, both pointed at the Windows release feed, and
 an Excavator workflow runs every four hours. New versions land here on their own.
 
-PrivacyNotes also updates itself. That built-in updater installs into your user profile,
-separate from Scoop, so decline it and run `scoop update privacynotes` if you want a single
-copy that Scoop manages.
+Your notes are not touched by an update. They live in `%LOCALAPPDATA%\app.privacynotes`,
+outside the Scoop directory.
