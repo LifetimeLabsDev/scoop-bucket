@@ -1,12 +1,12 @@
 {
-    "version": "0.726.9",
+    "version": "0.734.4",
     "description": "End-to-end encrypted notes, with a Markdown editor for your own files.",
     "homepage": "https://privacynotes.app",
     "license": "AGPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/LifetimeLabsHQ/PrivacyNotes.app/releases/download/v0.726.9/PrivacyNotes_0.726.9_x64-setup.exe#/dl.7z",
-            "hash": "7350129c19457fdc8f67ded109236147b8945d9bec4dbc8fb5ee22f457f561f6"
+            "url": "https://github.com/LifetimeLabsHQ/PrivacyNotes.app/releases/download/v0.734.4/PrivacyNotes_0.734.4_x64-setup.exe#/dl.7z",
+            "hash": "664accf39f7c3da7ab75bcaaeae4f1616c7bbde5d5de3971af01c209ea3f70c8"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall.exe\" -Force -Recurse -ErrorAction Ignore",
